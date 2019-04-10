@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+</head>
+<!-- 用户名密码验证问题
+    form表单与js问题 -->
+
+<body>
+    <div class="wraper">
+        <!-- <form action="#" method="post"> -->
+            <div>
+                <span class="login">Login</span>
+            </div>
+            <div class="box">
+                <input type="text" class="inp1" name="username" value="请输入用户名"
+                    onfocus="if(this.value=='请输入用户名'){this.value='';this.style.color='#111';}"
+                    onblur="if(this.value == ''){this.value = '请输入用户名';this.style.color = '#ccc';}">
+
+                <input type="password" class="inp2" name="password" placeholder="请输入密码"
+                    onfocus="if(placeholder=='请输入密码'){ placeholder='';this.style.color='#111';}"
+                    onblur="if(this.value == ''){ placeholder = '请输入密码';this.style.color = '#ccc';}">
+                <input type="text" class="text">
+                <span class="icon"></span>
+                <p>请输入内容</p>
+                <canvas id="myCanvas" width="100px" height="40px"></canvas>
+                <span class="refresh"></span>
+                <button type="submit" class="submit">submit</button>
+            </div>
+        <!-- </form> -->
+    </div>
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
