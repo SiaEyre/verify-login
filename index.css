@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1100px;
+    height: 800px;
+    background-image: url(images/bluebg.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+input::-webkit-input-placeholder {
+    color: #ccc;
+}
+.wraper{
+    width: 340px;
+    height: 300px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -170px;
+    margin-top: -150px;
+    border-radius: 5%;
+    background-color: rgb(186, 229, 231);
+}
+.wraper .login{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cadetblue;
+    font-size: 30px;
+}
+.wraper .box{
+    position: relative;
+}
+.wraper .inp1,.inp2{
+    color: #ccc;
+    height: 20px;
+    width: 300px;
+    border: 1px solid #ddc;
+    outline: none;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 10px;  
+    border-radius: 15px; 
+}
+.wraper .text{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    height: 20px;
+    width: 100px;
+    border: 1px solid #ddc;
+    outline: none;
+    border-radius: 5%;
+    padding: 10px;
+}
+.wraper .icon{
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(images/false.png);
+    background-size: 100% 100%;
+    display: none;
+}
+
+p{
+    position: absolute;
+    top: 175px;
+    color:#F34;
+    font-size: 12px;
+    margin-left: 10px;
+    display: none;
+}
+#myCanvas{
+    position: absolute;
+    top: 130px;
+    left: 180px;
+    display: inline-block;
+    background-image: url(images/bg.jpg);
+    border: 1px solid #000;
+}
+.wraper .refresh{
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    width: 30px;
+    height: 30px;
+    background-image: url(images/update.png);
+    background-size: 100% 100%;
+}
+.wraper .submit{
+    position: absolute;
+    top: 200px;
+    left: 135px;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    width: 80px;
+    height: 40px;
+    border-radius: 15%;
+}
